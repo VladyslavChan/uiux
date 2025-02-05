@@ -1,0 +1,270 @@
+h1{
+    font-family: "Red Hat Display", serif;
+}
+h2{
+    font-family: "Red Hat Display", serif;
+}
+h3{
+    font-family: "Red Hat Display", serif;
+}
+p{
+    font-family: "Red Hat Display", serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 2px solid #023e8a;
+    border-radius: 24px;
+    background-color: #f5f5f6;
+    font-family: "Red Hat Display", serif;
+    margin-bottom: 24px;
+    text-decoration: none;
+    height: 40px;
+}
+header ul   {
+    display: flex;
+    list-style: none;
+    gap: 16px;   
+    
+}
+header h2{
+    color: #023e8a;
+}
+header a{
+    list-style: none;
+    text-decoration: none;
+    border-bottom: solid 2px #f5f5f6;
+    color: black;
+}
+header a:hover {
+    color:  #023e8a;
+    border-bottom: solid 2px #023e8a;
+}
+a.home{
+    border-bottom: 2px solid #023e8a;
+    color: #023e8a;
+}
+a.contacts{
+    border-bottom: 2px solid #023e8a;
+    color: #023e8a;
+}
+a.login{
+    border-bottom: 2px solid #023e8a;
+    color: #023e8a;
+}
+div.motivation{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f6;
+    border-radius: 24px;
+    padding: 16px;
+    align-items: center;
+}
+div.reasons div{
+background-color: white;
+padding: 16px;
+width: 300px;
+margin: 16px;
+border-radius: 24px;
+}
+div.one{
+    border: 2px solid #023e8a;
+}
+div.two{
+    border: 2px solid #fb5607;
+}
+div.three{
+    border: 2px solid #ff006e;
+}
+div.four{
+    border: 2px solid #8338ec;
+}
+div.reasons h3{
+  background-color: #07a6fb;
+  display: inline-block;
+  border-radius: 99px;
+  padding: 4px 8px;
+  color: white;
+}
+div.coment h3{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 16px;
+    border: 2px solid #8338ec;
+    
+}
+div.reasons{
+    margin: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.right{
+    padding: 16px;
+    align-items: center;
+}
+div.right img{
+    width: 320px;
+    border-radius: 24px;
+}
+div.box img{
+    width: 320px;
+    height: auto;
+    border-radius: 16px;
+   
+}
+div.box{
+background-color: #f5f5f6 ;
+border-radius: 24px;
+display: flex;
+padding: 16px;
+justify-content: space-between;
+margin-top: 24px;
+border: solid #f5f5f6 2px;
+gap: 16px;
+}
+div.box:hover{
+    border: 2px solid #023e8a;
+}
+div.lesons-text{
+    background-color: white;
+    margin: auto;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f6;
+    margin-top: 24px;
+    border-radius: 24px;
+    border-top: 2px solid #023e8a;
+    padding: 16px;
+    align-items: center;
+    height: 40px;
+}
+footer img{
+    width: 24px;
+}
+footer li{
+    list-style: none;
+    display: inline-flex;
+    padding: 8px;
+    margin: 8px;
+    border: 2px solid #f5f5f6
+    
+}
+footer li:hover{
+    border-bottom: solid 2px #023e8a;
+}
+div.box a{
+    list-style: none;
+    background-color:#07a6fb;
+    color: white;
+    border-radius: 99px;
+    border: 2px solid #07a6fb;
+    text-decoration: none;
+    padding: 4px;
+    font-family: "Red Hat Display", serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+div.box a:hover{
+    background-color: white;
+    color: #07a6fb;
+    border: solid 2px #07a6fb;
+    border-radius: 99px;
+}
+
+div.cours{
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    display: flex; 
+    flex-direction: column;
+}
+div.theory{
+    background-color: #f5f5f6;
+    border: solid 2px #023e8a;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+a.back{
+    list-style: none;
+    background-color:#07a6fb;
+    color: white;
+    border-radius: 99px;
+    border: 2px solid #07a6fb;
+    text-decoration: none;
+    padding: 4px;
+    font-family: "Red Hat Display", serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+div.contacts {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+div.contacts div{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f6;
+    border-radius: 24px;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+div.contacts input{
+   border-radius: 24px;
+   border: solid 1px black;
+}
+div.contacts button{
+    border-radius: 24px;
+    border: solid 2px white;
+    margin-top: 16px;
+    color: white;
+    background-color: #07a6fb;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+div.contacts textarea{
+    border-radius: 8px;
+    border: solid 1px black;
+}
+
+div.login {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+div.login div{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f6;
+    border-radius: 24px;
+    padding: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+div.login input{
+   border-radius: 24px;
+   border: solid 1px black;
+}
+div.login button{
+    border-radius: 24px;
+    border: solid 2px white;
+    margin-top: 16px;
+    color: white;
+    background-color: #07a6fb;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
